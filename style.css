@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100px;
+    background-color: #263859;
+}
+/* -------------------------------------------- Search code --------------------- */
+/* search form */
+
+#search-form{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: 100px;
+}
+/* search-button */
+#search-button{
+    color: #000;
+  
+    text-decoration: none;
+    background: white;
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 11px;
+    border: 2px solid #494949;
+    display: inline-block;
+    transition: all 0.3s ease 0s;
+}
+
+#search-button:hover
+{
+    color: rgb(255, 246, 246);
+    
+    text-decoration: none;
+    background: rgb(112, 108, 106);
+    border-radius: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 11px;
+    border: 2px solid #494949;
+    cursor: pointer;
+transform: scale(0.9);
+    transition: all 0.4s ease 0s;
+}
+#search-input{
+    width: 250px;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px 0;
+    margin: 8px 0;
+    border-bottom: 3px solid orangered;
+    color: white;
+    outline: none;
+    background: none;
+    text-decoration: none;
+    background-color: none;
+    
+}
+input{
+    border: none;
+}
+
+
+
+
+
+/* -------------------------------------------- Main code --------------------- */
+
+
+/* location */
+
+#location{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2.5rem;
+    text-align: center;
+    color: rgb(253, 125, 74);
+}
+
+/* Main Box or Card */
+
+main{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+
+    padding: 20px;
+    margin-top: 50px;
+    background-color: #636974;
+    border-radius: 30px;
+    width: 360px;
+    height: 350px;
+    box-shadow: 10px 10px 12px 10px rgba(73, 72, 72, 0.3);
+}
+
+#temp{
+    text-align: center;
+}
+#temp-icon{
+    height: 50px;
+    width: 50px;
+    margin: 1rem;
+}
+#temp #temp-unit{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+    color: aqua;
+}
+#temp #temp-value{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+    color: rgb(255, 196, 0);
+}
+#temp #climate{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2.5rem;
+    color: rgb(60, 255, 0);
+}
+
+@media(max-width:940px){
+    body{
+        height: 100%;
+        background-color: #263859;
+    }
+    #search-form{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 10px; margin-left: auto;
+        margin-right: auto;
+    }
+
+    main{
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+ 
+       
+        background-color: #636974;
+        border-radius: 30px;
+        width: 250px;
+        height: 250px;
+        box-shadow: 10px 10px 12px 10px rgba(73, 72, 72, 0.3);
+    }
+    
+    #foot{
+        position: fixed;
+                padding: 10px 10px 0px 10px;
+                bottom: 0;
+                width: 100%;
+                /* Height of the footer*/ 
+                height: 40px;
+                background: #263859;
+                color: white;
+                text-align: center;
+    
+    }
+}
+
+#foot{
+    position: fixed;
+            padding: 10px 30px 0px 10px;
+            bottom: 0;
+            width: 100%;
+            /* Height of the footer*/ 
+            height: 40px;
+            background: #263859;
+            color: white;
+            text-align: center;
+
+}
+#foot a{
+    color: rgb(201, 164, 44);
+    text-decoration: none;
+}
+#foot a:hover{
+    color: red;
+    text-decoration: none;
+}
