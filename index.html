@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wether App</title>
+    <link rel="stylesheet" href="style.css">
+  
+</head>
+
+<body>
+
+    <!-- --------------- Search -------------- -->
+
+    <form id="search-form">
+
+        <input type="search" placeholder="City Name" id="search-input" required autocomplete="off" />
+        <br>
+        <button id="search-button"> <i class="fa fa-search icon"></i>Search</button>
+
+    </form>
+
+    <!-- --------------- Search -------------- -->
+
+    <!-- --------------- Main Box -------------- -->
+    <main id="app-container">
+
+        <!--location -->
+        <div id="location">
+
+            <p>----</p>
+        </div>
+
+        <!--img value unit -->
+        <div id="temp">
+
+            <img id="temp-icon" src="icon/sun.png" alt="" />
+
+            <p>
+                <span id="temp-value">----</span>
+                <span id="temp-unit">&#176c</span>
+            </p>
+
+            <div id="climate">
+                <p>----</p>
+            </div>
+
+        </div>
+
+    </main>
+    <!-- --------------- Main Box -------------- -->
+    <!-- --------------- Script -------------- -->
+
+    <script src="script.js"></script>
+
+    <!-- --------------- Script -------------- -->
+    <div id="foot">
+     <p>Made By <a href="http://himanshudadheech.live">Himanshu Dadheech</a> &copy;2021-22</p>
+    </div>
+</body>
+
+</html>
