@@ -1,12 +1,12 @@
 # WeatherWeb
 
-# Weather Website
-<img src="https://github.com/himanshudadheech/WeatherWeb/blob/main/icon/ss.jpg" alt="img"/>
-<hr/>
-<br/>
+# Website
+   <img src="https://github.com/himanshudadheech/WeatherWeb/blob/main/icon/ss.jpg" alt="img"/>
+   <hr/>
+  
 # Project Link
-<a href="https://himanshudadheech.github.io/WeatherWeb/index.html" target="_blank">Project Link</a>
-<br/>
+ <a href="https://himanshudadheech.github.io/WeatherWeb/index.html" target="_blank">Project Link</a>
+  <br/>
 
 # Api
 - https://openweathermap.org/
